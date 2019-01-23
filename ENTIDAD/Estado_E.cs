@@ -12,8 +12,7 @@ namespace ENTIDAD
 
         private int id_estado;
         private string dc_estado;
-        private int id_color;
-
+       
         #endregion
 
         #region Propiedades
@@ -28,14 +27,7 @@ namespace ENTIDAD
             get { return dc_estado; }
             set { dc_estado = value; }
         }
-        public int Id_Color
-        {
-            get { return id_color; }
-            set { id_color = value; }
-        }
-
-        public EstadoColor_E estadoColor = new EstadoColor_E();
-
+       
         #endregion
 
         #region Enumerables

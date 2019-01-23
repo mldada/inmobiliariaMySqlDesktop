@@ -15,7 +15,7 @@ namespace DAL
 {
     public class TipoPropiedad_DAL
     {
-        MySqlConnection cn = new MySqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ToString());
+        MySqlConnection cn = new MySqlConnection(ConfigurationManager.ConnectionStrings["Joyel.Properties.Settings.joyel_testingConnectionString"].ToString());
         MySqlCommand cmd = new MySqlCommand();
 
         const string listarTiposPropiedadesVenta = "View_Listar_TiposPropiedades_Venta";

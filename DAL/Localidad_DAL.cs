@@ -15,7 +15,7 @@ namespace DAL
 {
     public class Localidad_DAL
     {
-        MySqlConnection cn = new MySqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ToString());
+        MySqlConnection cn = new MySqlConnection(ConfigurationManager.ConnectionStrings["Joyel.Properties.Settings.joyel_testingConnectionString"].ToString());
         MySqlCommand cmd = new MySqlCommand();
 
         const string listar = "View_Listar_Localidades";

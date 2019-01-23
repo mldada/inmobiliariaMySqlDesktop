@@ -26,8 +26,8 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=179.43.126.9; Database=joyel_testing; uid=joyel_test; pwd=Inmobiliaria19; " +
-            "SslMode = none")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=179.43.126.9;user id=joyel_test;password=Inmobiliaria19;database=joyel_tes" +
+            "ting")]
         public string String {
             get {
                 return ((string)(this["String"]));

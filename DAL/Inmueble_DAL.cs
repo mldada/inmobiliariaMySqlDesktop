@@ -13,7 +13,7 @@ namespace DAL
     {
         #region Conexion
 
-        MySqlConnection cn = new MySqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ToString());
+        MySqlConnection cn = new MySqlConnection(ConfigurationManager.ConnectionStrings["Joyel.Properties.Settings.joyel_testingConnectionString"].ToString());
         MySqlCommand cmd = new MySqlCommand() ;
 
         #endregion
@@ -107,9 +107,10 @@ namespace DAL
                 {
                     Inmueble_E inmueble = new Inmueble_E
                     {
-                        Id_Inmueble = Convert.ToInt32(dr["id_inmueble"]),
-                        Id_Tipo_Propiedad = Convert.ToInt32(dr["id_tipo_propiedad"])
+                        //Id_Inmueble = Convert.ToInt32(dr["id_inmueble"]),
+                        //Id_Tipo_Propiedad = Convert.ToInt32(dr["id_tipo_propiedad"])
                     };
+                    inmueble.Id_Inmueble = Convert.ToInt32(dr["id_inmueble"]);
                     inmueble.tipoPropiedad_E.Dc_Tipo_Propiedad = dr["dc_tipo_propiedad"].ToString();
                     inmueble.Es_Venta = Convert.ToBoolean(dr["es_venta"]);
                     inmueble.Importe = Convert.ToInt32(dr["importe"]);
