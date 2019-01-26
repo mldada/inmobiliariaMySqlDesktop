@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Joyel.Properties {
+namespace Index.Properties {
     using System;
     
     

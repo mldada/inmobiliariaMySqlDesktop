@@ -16,7 +16,7 @@ namespace Inmobiliaria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Principal());
+            Application.Run(new Principal());
         }
     }
 }
